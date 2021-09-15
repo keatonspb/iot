@@ -17,7 +17,7 @@ EspMQTTClient client(
 );
 
 void setup() {
-  if DEBUG {
+  if (DEBUG) {
     client.enableDebuggingMessages();  
   }
   dht.begin();
